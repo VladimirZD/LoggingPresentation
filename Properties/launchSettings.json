@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "RDL2RDLC": {
+      "commandName": "Project",
+      "commandLineArgs": "/"
+    }
+  }
+}
