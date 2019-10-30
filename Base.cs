@@ -4,7 +4,15 @@ using System.Text;
 
 namespace LoggingTipsTricks
 {
-    class Base
+    public class DemoBase
     {
+        public NLog.Logger Logger = NLog.LogManager.GetCurrentClassLogger();
+        public Guid ID { get; set; }
+
+        public DemoBase()
+        {
+            ID = Guid.NewGuid();
+            Logger.Info("Hi from base");
+        }
     }
 }

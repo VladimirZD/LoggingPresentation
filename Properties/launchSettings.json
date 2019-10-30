@@ -1,8 +1,7 @@
 {
   "profiles": {
-    "RDL2RDLC": {
-      "commandName": "Project",
-      "commandLineArgs": "/"
+    "LoggingTipsAndTricsk": {
+      "commandName": "Project"
     }
   }
 }

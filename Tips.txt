@@ -1,0 +1,15 @@
+﻿Configuration
+Internal log - https://github.com/NLog/NLog/wiki/Internal-Logging
+Variables
+${specialfolder} 
+${tempdir} 
+${basedir}
+Targets 
+	Console
+	ColoredConsole
+	File https://github.com/NLog/NLog/wiki/File-target
+	Mail https://github.com/NLog/NLog/wiki/Mail-target
+Rules https://github.com/nlog/nlog/wiki/Configuration-file MultipleLogFiles ()
+Filters https://github.com/NLog/NLog/wiki/Filtering-log-messages
+
+https://github.com/nlog/nlog/wiki/Trace-Activity-Id-Layout-Renderer
