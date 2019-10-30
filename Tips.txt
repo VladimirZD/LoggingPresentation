@@ -11,5 +11,5 @@ Targets
 	Mail https://github.com/NLog/NLog/wiki/Mail-target
 Rules https://github.com/nlog/nlog/wiki/Configuration-file MultipleLogFiles ()
 Filters https://github.com/NLog/NLog/wiki/Filtering-log-messages
-
+https://github.com/NLog/NLog/wiki/Exception-layout-renderer
 https://github.com/nlog/nlog/wiki/Trace-Activity-Id-Layout-Renderer

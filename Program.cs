@@ -11,11 +11,17 @@ namespace dotnetcore_nlog
 
         private static void Main(string[] args)
         {
-            Helpers.Logger.Trace("Loggin trace.");
-            var d = new Demo();
-
-            //Console.WriteLine("Any key");
-            //Console.ReadLine();
+            try
+            {
+                Helpers.Logger.Trace("Loggin trace.");
+                var d = new Demo();
+                d.DoIt();
+                d.DoIt2();
+            }
+            catch (Exception ex)
+            {
+                Helpers.Logger.Fatal(ex, "OOps");
+            }
         }
     }
 }
